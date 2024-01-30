@@ -1,0 +1,12 @@
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/controller/Studdetialscontroller.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/entity/Student.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/controller/Studentcontroller.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/entity/Marks.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/repo/Studentrepo.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/entity/Studdetials.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/repo/Marksrepo.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/exception/ResourceNotFoundException.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/controller/CombinedController.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/DemoApplication.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/controller/Markscontroller.java
+/home/shrusti/IdeaProjects/demo/src/main/java/Task1/repo/Studentdetrepo.java

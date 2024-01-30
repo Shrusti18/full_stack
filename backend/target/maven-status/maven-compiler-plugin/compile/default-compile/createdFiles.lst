@@ -1,0 +1,9 @@
+Task1/entity/Student.class
+Task1/DemoApplication.class
+Task1/exception/ResourceNotFoundException.class
+Task1/repo/Studentrepo.class
+Task1/entity/Marks.class
+Task1/repo/Studentdetrepo.class
+Task1/repo/Marksrepo.class
+Task1/controller/CombinedController.class
+Task1/entity/Studdetials.class

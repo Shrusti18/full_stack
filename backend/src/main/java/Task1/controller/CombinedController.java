@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin("http://ec2-13-232-24-147.ap-south-1.compute.amazonaws.com")
+@CrossOrigin("http://ec2-13-127-128-170.ap-south-1.compute.amazonaws.com")
 //@CrossOrigin("*")
 @RequestMapping("/api/s/")
 

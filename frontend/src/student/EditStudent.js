@@ -49,7 +49,7 @@ export default function EditStudent() {
 
     const loadUser = async () => {
         try {
-            const result = await axios.get(`http://ec2-13-127-25-66.ap-south-1.compute.amazonaws.com/api/s/getstudent/${id}`);
+            const result = await axios.get(`http://ec2-13-232-24-147.ap-south-1.compute.amazonaws.com/api/s/getstudent/${id}`);
             setStudent(result.data);
             console.log("Printing data", result.data);
             console.log('Printing student state', student.result);

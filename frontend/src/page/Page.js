@@ -14,7 +14,7 @@ export default function Page() {
 
     const loadStudents = async () => {
         try {
-            const response = await axios.get("http://ec2-13-127-25-66.ap-south-1.compute.amazonaws.com/api/s/getallstudent");
+            const response = await axios.get("http://ec2-13-232-24-147.ap-south-1.compute.amazonaws.com/api/s/getallstudent");
 
             const combinedData = response.data.student.map((student, index) => ({
                 ...student,
@@ -33,7 +33,7 @@ export default function Page() {
 
     const delteStudent = async (id) => {
         try {
-          await axios.delete(`http://ec2-13-127-25-66.ap-south-1.compute.amazonaws.com/api/s/deletestudent/${id}`);
+          await axios.delete(`http://ec2-13-232-24-147.ap-south-1.compute.amazonaws.com/api/s/deletestudent/${id}`);
           loadStudents();
         } catch (error) {
           console.error("Error deleting student:", error);

@@ -25,7 +25,7 @@ export default function ViewStudent() {
 
   const loadUser = async () => {
     try {
-      const result = await axios.get(`http://ec2-13-232-24-147.ap-south-1.compute.amazonaws.com/api/s/getstudent/${id}`);
+      const result = await axios.get(`http://ec2-13-127-128-170.ap-south-1.compute.amazonaws.com/api/s/getstudent/${id}`);
       setStudent(result.data);
     } catch (error) {
       console.error('Error fetching student:', error);

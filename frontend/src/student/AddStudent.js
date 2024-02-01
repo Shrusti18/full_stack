@@ -42,7 +42,7 @@ export default function AddStudent() {
 
 
 
-      await axios.post("http://ec2-65-1-86-67.ap-south-1.compute.amazonaws.com/api/s/creatstudent", requestData);
+      await axios.post("http://ec2-13-201-5-10.ap-south-1.compute.amazonaws.com/api/s/creatstudent", requestData);
       navigate("/");
   } catch (error) {
       console.error("Error:", error);
